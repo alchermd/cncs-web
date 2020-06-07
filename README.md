@@ -1,3 +1,5 @@
+# Concise Web Client [![Build Status](https://travis-ci.com/alchermd/cncs-web.svg?branch=master)](https://travis-ci.com/alchermd/cncs-web)
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
