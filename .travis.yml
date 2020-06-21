@@ -7,5 +7,5 @@ before_script:
   - cp .env .env.local
   - docker-compose up -d
 script:
-  - docker-compose exec web yarn test
+  - docker-compose exec web yarn test --watchAll=false
 cache: yarn
