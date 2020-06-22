@@ -5,7 +5,7 @@ services:
     build: ./web
     command: yarn start
     volumes:
-      - ./web/:/usr/src/app/
+      - ./web/:/web/
     ports:
       - 3000:3000
       - 35729:35729
