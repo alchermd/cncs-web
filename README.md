@@ -1,3 +1,7 @@
+> This repo is archived! The web client is now added as a Docker service on the main [cncs](https://github.com/alchermd/cncs/) repository.
+
+---
+
 # Concise Web Client [![Build Status](https://travis-ci.com/alchermd/cncs-web.svg?branch=master)](https://travis-ci.com/alchermd/cncs-web)
 
 ## Getting Started
