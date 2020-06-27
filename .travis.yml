@@ -3,9 +3,11 @@ node_js:
   - 14
 services:
   - docker
-before_script:
-  - cp .env .env.local
-  - docker-compose up -d
-script:
-  - docker-compose exec web yarn test --watchAll=false
+
+before_install:
+  - docker build -t cncs-web .
+  - docker run -itd -p 127.0.0.1:80:3000 cncs-web
+  - docker ps -a
+  - docker run cncs-web yarn run test -watchAll=false
+
 cache: yarn
